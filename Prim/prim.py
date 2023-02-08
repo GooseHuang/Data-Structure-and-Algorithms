@@ -15,7 +15,7 @@ def prim(N, G, selected_node, no_edge):
                         minimum = G[m][n]
                         a = m
                         b = n
-        print(str(a) + "-" + str(b) + ":" + str(G[a][b]))
+        print(f"{str(a)}-{str(b)}:{str(G[a][b])}")
         selected_node[b] = True
         no_edge += 1
     return
